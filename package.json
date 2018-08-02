@@ -1,0 +1,14 @@
+{
+  "name": "azure-face-rec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Azfacerec.js",
+  "scripts": {
+    "test": "node Azfacerec.js"
+  },
+  "author": "abhishek dash",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.87.0"
+  }
+}
