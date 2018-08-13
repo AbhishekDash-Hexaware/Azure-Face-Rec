@@ -243,7 +243,7 @@ class AzureFaceRec{
                                         console.log(file + "filename");
                                         // add face to personId
                                         const img = fs.createReadStream(__dirname+"\\"+dir+"\\"+content + "\\" + file);
-                                        if(count<1){
+                                        if(count<2){
                                         recOb.addFaceToPerson(img,data,"testg9",(err,data)=>{
                                                 if(err) {
                                                     console.log(err)
